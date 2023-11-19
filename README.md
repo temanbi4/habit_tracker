@@ -56,8 +56,11 @@ PostgreSQL
 
 
 Интеграция с Telegram:
+
 Для получения уведомлений о привычках через Telegram, при регистрации необходимо указать telegram_id. Получить его можно, воспользовавшись ботом @userinfobot.
+
 Найти бота @habits_tracker_by_Artem_bot (https://t.me/habits_tracker_by_Artem_bot) в Telegram и нажать start для разрешения ему отправки уведомлений.
+
 Ждать уведомлений о привычках через Telegram. Бот обязательно напомнит в нужное время.
 
 
