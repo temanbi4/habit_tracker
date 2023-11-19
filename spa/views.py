@@ -65,4 +65,3 @@ class HabitDestroyAPIView(generics.DestroyAPIView):
         queryset = Habit.objects.filter(user=self.request.user)
         return queryset
 
-# TODO добавить валидаторы, протестировать валидаторы
