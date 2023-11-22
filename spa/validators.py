@@ -1,13 +1,6 @@
 from datetime import timedelta
-
 from rest_framework.exceptions import ValidationError
-
 from spa.tasks import check_habits
-
-
-
-
-
 
 
 class ExecutionTimeValidator:
