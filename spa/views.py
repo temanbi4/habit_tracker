@@ -1,6 +1,5 @@
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
-
 from spa.models import Habit
 from spa.paginators import HabitPaginator
 from spa.serializers import HabitSerializer
@@ -64,4 +63,3 @@ class HabitDestroyAPIView(generics.DestroyAPIView):
 
         queryset = Habit.objects.filter(user=self.request.user)
         return queryset
-
