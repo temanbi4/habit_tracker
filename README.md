@@ -69,3 +69,9 @@ PostgreSQL
 Примените миграции: python manage.py migrate
 Запустите сервер: python manage.py runserver
 Теперь вы можете использовать эндпоинты и наслаждаться отслеживанием своих привычек!
+
+
+Инструкции по запуску:
+
+Создать .env файл на основании .env.sample Запустить проект командой: docker-compose up --build -d 
+Проверить работу открыв страницу с документацией http://localhost:8000/swagger/ или http://localhost:8000/redoc/ Начать работать с проектом через Postman
